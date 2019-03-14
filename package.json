@@ -1,10 +1,10 @@
 {
-  "name": "json-bigint",
+  "name": "json-bigint-node",
   "version": "0.3.0",
   "description": "JSON.parse with bigints support",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js"
+    "test": "./node_modules/.bin/mocha -R spec --check-leaks test/*-test.js"
   },
   "repository": {
     "type": "git",
